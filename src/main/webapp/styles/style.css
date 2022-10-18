@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(191, 239, 240);
+}
+label{
+    font-size: 16px;
+}
+
+#hat > #name {
+    font-size: 20px;
+}
+
+
+#hat #itmo {
+    background: -webkit-linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+/* #hat #itmo{
+    font-size: 200px;
+} */
+
+#hat {
+    text-align: center;
+    font-family: sans-serif;
+    color: darkslategray;
+    font-size: 16px;
+}
+
+
+
+#interact {
+    margin: auto;
+    width: 800px;
+    height: 416px;
+    
+
+}
+
+#table_container {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    border: 8px solid cadetblue;
+    border-radius: 2%;
+}
+#form-div{
+    text-align: center;
+}
+#interact #form-div{
+    width: 220px;
+}
+
+#interact #form-div #radio-container {
+    margin: 1%;
+}
+
+#interact #form-div #text-container {
+    margin: 1%;
+}
+
+#interact #form-div #checkbox-container {
+    margin: 1%;
+}
+
+
+.checkbox-input {
+    margin-left: 3%;
+    margin-right: 1%;
+}
+
+
+/* .checkbox-input[name="first"] {
+    margin-left: 1%;
+    
+} */
+
+#interact #form-div {
+    font-size: 18px;
+    margin: auto;
+    float: left;
+    border: 8px solid cadetblue;
+    border-radius: 2%;
+    height: 400px;
+}
+
+.r-button {
+    background-color: white;
+    border-color: black;
+    
+    border-radius: 20%;
+}
+
+#picture {
+    margin: auto;
+    float: right;
+    height: 400px;
+    border: 8px solid cadetblue;
+    border-radius: 2%;
+    
+}
+
+.submit-button {
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.table_row {
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+
+}
+.table_row[name="head"]{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.table_row[value="true"]{
+    background-color: rgb(45, 240, 45);
+}
+.table_row[value="false"]{
+    background-color: rgb(243, 77, 77);
+}
+.table_row .table_cell {
+    text-align: center;
+    margin: auto;
+    width: 114px;
+}
+
+#table .table_row .table_cell::selection {
+    color: white;
+    background: black;
+}
+
